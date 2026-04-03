@@ -1,0 +1,11 @@
+[tool.pytest.ini_options]
+# Define o diretório base para busca de testes
+testpaths = ["."]
+
+# Adiciona argumentos padrão ao rodar 'pytest'
+# -v: Verbose (detalhado)
+# -ra: Mostra resumo de testes que falharam/pularam
+addopts = "-v -ra"
+
+# Padrões de nome de arquivos de teste
+python_files = "test_*.py"
